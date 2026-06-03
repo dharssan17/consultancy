@@ -14,7 +14,6 @@ import Billing from './pages/Billing';
 import YarnSuppliers from './pages/YarnSuppliers';
 import YarnPurchases from './pages/YarnPurchases';
 import YarnReturns from './pages/YarnReturns';
-import YarnTracking from './pages/YarnTracking';
 
 function App() {
   return (
@@ -127,16 +126,6 @@ function App() {
             <PrivateRoute>
               <Layout>
                 <YarnReturns />
-              </Layout>
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/yarn-tracking"
-          element={
-            <PrivateRoute>
-              <Layout>
-                <YarnTracking />
               </Layout>
             </PrivateRoute>
           }

@@ -117,15 +117,6 @@ const Layout = ({ children }) => {
             <PackageMinus size={20} />
             <span>Delivery Memo (Ret)</span>
           </Nav.Link>
-
-          <Nav.Link
-            href="/yarn-tracking"
-            className={`sidebar-link ${isActive('/yarn-tracking') ? 'active' : ''}`}
-            onClick={(e) => { e.preventDefault(); navigate('/yarn-tracking'); }}
-          >
-            <Activity size={20} />
-            <span>Tracking Dashboard</span>
-          </Nav.Link>
         </Nav>
 
         <div className="px-3 mt-auto">
